@@ -35,3 +35,8 @@ Content-Type: application/json
 }
 
 ###
+
+@id=1
+DELETE {{TodoApi_HostAddress}}/api/todoitems/{{id}}
+
+###

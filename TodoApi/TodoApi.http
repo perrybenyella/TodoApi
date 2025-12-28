@@ -24,11 +24,14 @@ GET {{TodoApi_HostAddress}}/api/todoitems/{{id}}
 
 ###
 
+@id=1
 PUT {{TodoApi_HostAddress}}/api/todoitems/{{id}}
 Content-Type: application/json
 
 {
-  //TodoItem
+  "id": 1,
+  "name": "feed fish",
+  "isComplete": false
 }
 
 ###
